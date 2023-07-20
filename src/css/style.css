@@ -1,0 +1,33 @@
+.table {
+  padding: 30px;
+  font-size: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+td {
+  text-align: center;
+  border: solid 1px  black;
+}
+
+th {
+  border: 1px solid black;
+}
+
+.titles {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.filtered::after{
+  content: "\2193";
+  color: black;
+}
+
+.filtered_reverce::after{
+  content: "\2191";
+  color: black;
+}
